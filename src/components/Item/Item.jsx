@@ -10,7 +10,7 @@ const Item = ({data}) => {
         
               <div className={cardClass} >
                     <div className='card-img'>
-                        <img src={`./imgs/${data.img}.jpg`} className="" alt="..." />
+                        <img src={`../../imgs/${data.img}.jpg`} className="" alt="..." />
                     </div>                    
                     <div className="cardInfo">
                         <h5 className="card-title">{data.nombre}</h5>   
