@@ -821,10 +821,16 @@ p {
   margin-right: 5%;
   border-radius: 5px;
   color: white;
-  height: 50px;
+  height: 80px;
   margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
+.HeladosData img{
+  width: 10%;
+  height: 100%;
+}
 .HeladosData p {
   font-family: var(--titulos);
   font-size: 35px;
@@ -1155,7 +1161,13 @@ footer img {
   .active1 {
     color: var(--colorPrincipal) !important;
   }
-
+  .HeladosData p{
+    font-size: 25px;
+  }
+  .HeladosData img{
+    width: 30%;
+    height: 100%;
+  }
  
    /* contacto */
 

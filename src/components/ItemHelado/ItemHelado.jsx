@@ -7,7 +7,7 @@ const ItemHelado = ({data}) => {
         <div className='ContainerHeladosData'>
             <div className='HeladosData'>
                 <p>{data.nombre}</p>
-                <img src={`../src/assets/imgs/${data.img}.jpg`} alt="" />
+                <img src={`../../imgs/${data.img}.jpg`} alt="" />
             </div>
             {data.Sub.map((item,index) =>(<SubInfo item={item} key={index}/> ))}
         </div>
